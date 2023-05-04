@@ -12,7 +12,7 @@ const Navbar = () => {
       <button
         onClick={() =>
           logout({
-            logoutParams: { returnTo: "http://localhost:3000/login" },
+            logoutParams: { returnTo: window.location.origin },
           })
         }
       >
